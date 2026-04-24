@@ -6,9 +6,9 @@ app.use(cors());
 app.use(express.json());
 
 // ── Identity ─────────────────────────────────────────────────────────────────
-const USER_ID = "yourname_ddmmyyyy";          // TODO: replace with fullname_ddmmyyyy
-const EMAIL_ID = "yourname@srmist.edu.in";    // TODO: replace with your college email
-const COLLEGE_ROLL = "RA2111000000000";        // TODO: replace with your roll number
+const USER_ID = "kshitij_12052004";          
+const EMAIL_ID = "kshitij@srmist.edu.in";    
+const COLLEGE_ROLL = "RA2111000000000";        
 
 // ── Validation ───────────────────────────────────────────────────────────────
 function isValidEdge(raw) {
